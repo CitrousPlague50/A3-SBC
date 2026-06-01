@@ -151,3 +151,34 @@ exemplos/
 ## Equipe
 
 Trabalho A3 – disciplina de Compiladores.
+
+PS C:\Users\gabri\Downloads\A3-SBC-main (1)\A3-SBC-main> mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< br.edu.easybot:easybot-compiler >-------------------
+[INFO] Building EasyBot Compiler 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.4.0:resources (default-resources) @ easybot-compiler ---
+[INFO] skip non existing resourceDirectory C:\Users\gabri\Downloads\A3-SBC-main (1)\A3-SBC-main\src\main\resources
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ easybot-compiler ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ easybot-compiler ---
+[INFO] skip non existing resourceDirectory C:\Users\gabri\Downloads\A3-SBC-main (1)\A3-SBC-main\src\test\resources
+[INFO]
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ easybot-compiler ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.5.4:test (default-test) @ easybot-compiler ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- jar:3.3.0:jar (default-jar) @ easybot-compiler ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.108 s
+[INFO] Finished at: 2026-06-01T10:45:47-03:00
+[INFO] ------------------------------------------------------------------------
