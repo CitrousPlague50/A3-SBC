@@ -1,0 +1,20 @@
+// Exemplo 2 - reacao a sensor logico
+PROGRAMA EvitarObstaculo
+INICIO
+    VAR sensor_obstaculo : LOGICO;
+    VAR distancia : NUMERO;
+    VAR vel_segura : NUMERO;
+
+    sensor_obstaculo = FALSO;
+    distancia = 50;
+    vel_segura = 1;
+
+    ENQUANTO distancia > 0 FACA
+        SE sensor_obstaculo == VERDADEIRO ENTAO
+            MOVER(0, 0) VEL vel_segura;
+        SENAO
+            MOVER(distancia, 0) VEL vel_segura + 1;
+        FIM_SE
+        distancia = distancia - 10;
+    FIM_ENQUANTO
+FIM

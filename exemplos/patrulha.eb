@@ -1,0 +1,21 @@
+// Exemplo 1 - patrulha simples entre dois pontos
+PROGRAMA Patrulha
+INICIO
+    VAR pos_x : NUMERO;
+    VAR pos_y : NUMERO;
+    VAR velocidade : NUMERO;
+    VAR voltas : NUMERO;
+
+    pos_x = 0;
+    pos_y = 0;
+    velocidade = 2;
+    voltas = 3;
+
+    ENQUANTO voltas > 0 FACA
+        MOVER(10, 0) VEL velocidade;
+        MOVER(10, 10) VEL velocidade;
+        MOVER(0, 10) VEL velocidade;
+        MOVER(0, 0) VEL velocidade;
+        voltas = voltas - 1;
+    FIM_ENQUANTO
+FIM

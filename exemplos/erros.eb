@@ -1,0 +1,15 @@
+// Exemplo 3 - este programa contem erros semanticos de proposito
+// Use para validar as mensagens do analisador semantico.
+PROGRAMA TestaErros
+INICIO
+    VAR ligado : LOGICO;
+    VAR contador : NUMERO;
+
+    ligado = VERDADEIRO;
+    contador = ligado + 1;          // erro: LOGICO em operacao aritmetica
+    distancia = 10;                 // erro: variavel nao declarada
+
+    SE contador ENTAO                // erro: condicao deve ser LOGICO
+        MOVER(ligado, 0) VEL 1;     // erro: coordenada deve ser NUMERO
+    FIM_SE
+FIM
